@@ -29,7 +29,7 @@
         <hr>
 
         <!-- Preview Image -->
-        {{$articles->featured_image}}
+        <img class="card-img-top" src={{$articles->featured_image}} alt="Card image cap">
         
         
         <hr>
